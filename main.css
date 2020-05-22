@@ -1,4 +1,8 @@
 body {
+    background-image: url('/images/background.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
     text-align: center;
 }
 
@@ -9,10 +13,48 @@ body {
     border-style: solid;
     border-color: black;
 }
+#button {
+    align-items: flex-start;
+    display: inline-block;
+    padding: 20px 40px;
+    margin-bottom: auto;
+    background-color:#006400;
+    border-radius: 1em;
+    border-color: #228B22;
+    color: ivory;
+    font-size: 120%;
+    font-weight: bold;
+}
+#button:hover{
+    background-color:#2E8B57;
+    border-color: #3CB371;
+}
+#greeting {
+    font-size: 600%;
+    background-color: white;
+}
+#buttonContainer {
+    display: flex;
+    margin-left: 25%;
+}
 
+#chosenColour {
+    align-items: flex-end;
+    margin-left: 40%;
+    margin-bottom: -10px;
+    height: 72px;
+    width: 105px;
+    background-color: transparent;
+    border-color: transparent;
+}
 #container>div {
     display: inline-block;
     vertical-align: top; 
     max-width: inherit;
     max-height: inherit;
+}
+#attribution {
+    text-decoration: none;
+    color: green;
+    font-size: 70%;
 }
