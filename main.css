@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/background.jpg');
+    background-image: url('https://raw.githubusercontent.com/RebSin/etch-a-sketch/master/images/background.jpg');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
